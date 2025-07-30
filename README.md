@@ -32,12 +32,14 @@ For detailed setup instructions, refer to the documentation links <link to PDF>
 
 **When to Use Which Tool**
 
-| Use Case | Recommended Tools | Typical Profile |
-|----------|-------------------|-----------------|
-| Simple code execution | Docker | T1.H1.N3 |
-| Multi-service evaluations | Kubernetes | T1.H2.N2 |
-| High-risk agent testing | Proxmox | T1.H3.N3 |
-| Web browsing evaluations | Kubernetes/Proxmox | T1.H2.N1 |
+We indicate below common use-cases and their ideal sandbox profiles:
+
+| Evaluation Type | Description | Sandbox Profile | Explanation |
+|-----------------|-------------|-----------------|-------------|
+| Chem/Bio with PyPI | Write and execute Python code using PyPI libraries | N2.H1.T0 | Can install PyPI packages but no other internet; Kubernetes host sandboxing; can write and execute code |
+| Cyber with Ghidra | Decompiling binaries using Ghidra tool | T1.H2.N1 | Ghidra runs in separate sandbox; can invoke CLI but not write/execute arbitrary code; no network access |
+| Docker zero-day exploit | Finding vulnerabilities in Docker runtime | T0.H2.N2 | No internet required; model is actively hostile; needs to write and execute code |
+| Deep research | Information retrieval using general computer tool | T1.H1.N0 or T0.H1.N0 | May need access to tools but won't write/execute code |
 
 See the full taxonomy PDF for comprehensive guidance on profile selection.
 
