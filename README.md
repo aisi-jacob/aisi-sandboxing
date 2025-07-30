@@ -32,14 +32,16 @@ For detailed setup instructions, refer to the documentation links <link to PDF>
 
 **When to Use Which Tool**
 
-Use Case	Recommended Tools	Typical Profile
-Simple code execution	Docker	T1.H1.N3
-Multi-service evaluations	Kubernetes	T1.H2.N2
-High-risk agent testing	Proxmox	T1.H3.N3
-Web browsing evaluations	Kubernetes/Proxmox	T1.H2.N1
+| Use Case | Recommended Tools | Typical Profile |
+|----------|-------------------|-----------------|
+| Simple code execution | Docker | T1.H1.N3 |
+| Multi-service evaluations | Kubernetes | T1.H2.N2 |
+| High-risk agent testing | Proxmox | T1.H3.N3 |
+| Web browsing evaluations | Kubernetes/Proxmox | T1.H2.N1 |
+
 See the full taxonomy PDF for comprehensive guidance on profile selection.
 
-Documentation
+**Documentation**
 
 Full Sandboxing Taxonomy PDF - Complete 12-page guide with detailed protocols <link>
 AISI Blog Post - 500-word overview of our sandboxing approach <link> 
