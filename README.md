@@ -46,11 +46,15 @@ See the full taxonomy PDF for comprehensive guidance on profile selection.
 **Documentation**
 
 Full Sandboxing Taxonomy PDF - Complete 12-page guide with detailed protocols <link>
+
 AISI Blog Post - 500-word overview of our sandboxing approach <link> 
+
 Inspect Framework Documentation - Core evaluation framework documentation <link < 
 
 **Contributing & Support**
 
 Report issues or contribute: Please submit issues or pull requests to this repository 
+
 Questions: Join the Inspect community on Slack <link>
-Security concerns: If you discover security vulnerabilities, please report them responsibly to jason.gwartz@dsit.gov.uk 
+
+If you discover security vulnerabilities, please report them responsibly to jason.gwartz@dsit.gov.uk 
